@@ -53,8 +53,7 @@ fun WeatherCard(
         )
         Spacer(modifier = Modifier.height(16.dp))
         Text(
-          //fixme: Display unicode symbol for degrees celsius
-          text = "${weatherData.temperature} C",
+          text = "${weatherData.temperature}℃",
           fontSize = 50.sp,
           color = Color.White
         )

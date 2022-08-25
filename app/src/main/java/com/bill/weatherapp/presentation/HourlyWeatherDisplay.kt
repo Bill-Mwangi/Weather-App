@@ -36,7 +36,6 @@ fun HourlyWeatherDisplay(
       contentDescription = null,
       modifier = Modifier.width(40.dp)
     )
-    //fixme: Unicode temperature celcius \u2103
-    Text(text = "${weatherData.temperature}C", color = textColor, fontWeight = FontWeight.Bold)
+    Text(text = "${weatherData.temperature}℃", color = textColor, fontWeight = FontWeight.Bold)
   }
 }
